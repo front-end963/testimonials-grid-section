@@ -167,7 +167,7 @@ section:nth-child(5) {
     body {
         min-height: 100vh;
     }
-    
+
     section:nth-child(1) { grid-area: daniel; }
     section:nth-child(2) { grid-area: jonathan; }
     section:nth-child(3) { grid-area: jeanette; }
@@ -175,12 +175,12 @@ section:nth-child(5) {
     section:nth-child(5) { grid-area: kira; }
 
     main {
-        width: 70%;
+        width: 75%;
         display: grid;
         gap: 25px;
         grid-template-areas: 
-            'daniel daniel daniel jonathan kira'    
-            'jeanette patrick patrick patrick kira';
+            'daniel daniel daniel daniel jonathan kira'
+            'jeanette patrick patrick patrick patrick kira';
     }
 
     section {
@@ -188,8 +188,8 @@ section:nth-child(5) {
     }
 
     section:nth-child(1) {
-        background-position: top 0 right 20%;
-        background-size: 20% 30%;
+        background-position: top 0 right 15%;
+        background-size: 15% 35%;
     }
 
 }
