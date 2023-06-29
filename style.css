@@ -167,15 +167,7 @@ section:nth-child(5) {
     body {
         min-height: 100vh;
     }
-
-    main {
-        width: 80%;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+    
     section:nth-child(1) { grid-area: daniel; }
     section:nth-child(2) { grid-area: jonathan; }
     section:nth-child(3) { grid-area: jeanette; }
